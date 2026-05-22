@@ -1,12 +1,53 @@
-body{
-    background-color: navy;
-    color: white;
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Estilos globais */
+
+body{
+    background-color: #0f172a;
+    color: #f8fafc;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    line-height: 1.5;
+}
+
+/* Estilo para Link */
+
+a{
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+/* Estilo para Botão */
 
 button{
     background-color: white;
     color: black;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
+    font-family: Helvetica;
+}
+
+/* Estilo para o Título */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Container */
+
+container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
